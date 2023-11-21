@@ -14,3 +14,9 @@ Build Cache     245       0         1.13GB    1.13GB
 ##### docker container prune
 ##### docker buildx prune -f
 ##### docker rmi $(docker images --filter dangling=true -q)
+
+
+
+
+#### 3. Clear all system cache
+##### docker system prune -f
